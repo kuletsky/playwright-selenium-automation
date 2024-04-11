@@ -1,1 +1,1 @@
-# playwright-selenium-automation
+# python-playwright-automation

@@ -7,6 +7,6 @@ async def main():
         page = await browser.new_page()
         await page.goto("http://target.com")
         print(await page.title())
-        await browser.close()
+        await browser.close() 
 
 asyncio.run(main())

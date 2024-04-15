@@ -21,7 +21,7 @@ async def main():
         #-Stoping tracing
         await context.tracing.stop(path="logs/trace.zip")
         
-        #-Closing browser
+        #-Closing browser 
         await browser.close()
 
 asyncio.run(main())

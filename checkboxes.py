@@ -20,7 +20,7 @@ async def main():
 
         #-Stoping tracing
         await context.tracing.stop(path="logs/trace.zip")
-        
+         
         #-Closing browser 
         await browser.close()
 

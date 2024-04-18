@@ -14,6 +14,8 @@ async def main():
         #-Actions
         await page.check("label[for='tree-node-home']")
         await page.screenshot(path="screenshots/checkbox.png")
+        await page.check("#tree-node-notes")
+        await page.screenshot(path="screenshots/checkbox1.png")
 
         #-Assertionce
         await page.is_checked("label[for='tree-node-home']") is True
